@@ -264,6 +264,23 @@ nav ul li a {
     border-radius: 50px;
     margin-top: 20px;
 }
+ 
+ .popisek{
+    float: left;
+    color: white;
+    width: 50%;
+    height: auto;
+    transition: 1s;
+ }
+
+ .popisek:hover {
+    background-color: rgb(163, 162, 162);
+    color: black;
+    border: 3px solid #00FF08;
+    padding: 14px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
 
 .footer {
     border-top-color: rgb(#00FF08);
@@ -287,23 +304,7 @@ nav ul li a {
     height: 200px;
     float: right;
  }
- 
- .popisek{
-    float: left;
-    color: white;
-    width: 50%;
-    height: auto;
-    transition: 1s;
- }
 
- .popisek:hover {
-    background-color: rgb(163, 162, 162);
-    color: black;
-    border: 3px solid #00FF08;
-    padding: 14px 20px;
-    border-radius: 50px;
-    margin-top: 20px;
-}
 
 @media (min-aspect-ratio: 16/9) {
     .back-video {
