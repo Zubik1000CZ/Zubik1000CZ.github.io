@@ -35,7 +35,7 @@
     
     .back-video
     {
-        width: 100%;
+        height: 100%;
     } 
      .text
     {
@@ -55,7 +55,7 @@
     }
     .content
     {
-        width: 60%;
+        width:   100%;
     }
     .footer
     {
@@ -64,7 +64,36 @@
     
     .back-video
     {
+        height: 100%;
+    } 
+     .text
+    {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+
+    .content h1
+    {
+        width: 100%;
+    }
+    .TopLogo
+    {
+        width: 100%;
+    }
+    .content
+    {
+        width:   100%;
+    }
+    .footer
+    {
+        width: 100%;
+    }
+    
+    .back-video
+    {
+        height: 100%;
     } 
      .text
     {
@@ -141,28 +170,25 @@ nav ul li a {
 }
 
 .content {
-    height: 30%;
     text-align: center;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid #00FF08;
 }
 
 .content h1 {
     
     font-family: 'soopafre', sans-serif;
-    font-size: 160px;
+    text-align: center;
     color: #00FF08;
-    font-weight: 600;
-    transition: 0.5s;
-    -webkit-text-stroke:8px #000000;
+    transition: 1s;
+    -webkit-text-stroke:0.05em #000000;
 }
 
 .content h1:hover {
     -webkit-text-stroke: 8px #00FF08;
-    color: transparent;
+    color: #000000;
 }
 
 .content a {
@@ -181,6 +207,9 @@ nav ul li a {
     right: 0;
     bottom: 0;
     z-index: -1;
+    border: 3px solid #00FFFF;
+    display: flex;
+  justify-content: center;
 }
 
 .overlay {
