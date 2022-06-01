@@ -1,8 +1,8 @@
 @font-face {
     font-family: soopafre;
     src: url(/assest/font/soopafre.ttf);
-    font-family: Zubik;
-    src: url(/assest/font/Zubik.ttf)´
+    font-family: zubik;
+    src: url(/assest/font/Zubik.ttf);
 
 }
 
@@ -17,6 +17,10 @@
 @media only screen and (min-width: 1024px) {
 
     .content h1
+    {
+        width: 100%;
+    }
+    .Models
     {
         width: 100%;
     }
@@ -277,6 +281,30 @@ nav ul li a {
     Font-size: 1.2em;
     margin: 20px 0 20px 0;
  }
+
+ .Models {
+    width: 400px;
+    height: 200px;
+    float: right;
+ }
+ 
+ .popisek{
+    float: left;
+    color: white;
+    width: 50%;
+    height: auto;
+    transition: 1s;
+ }
+
+ .popisek:hover {
+    background-color: rgb(163, 162, 162);
+    color: black;
+    border: 3px solid #00FF08;
+    padding: 14px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
 @media (min-aspect-ratio: 16/9) {
     .back-video {
         width: auto;
