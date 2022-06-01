@@ -236,8 +236,8 @@ nav ul li a {
 
 
 .link {
-    text-decoration: none;
-    color: rgb(0, 174, 255);
+    font-weight: bold;
+    color: rgb(0, 46, 253);
 }
 
 .overlay h1:hover {
