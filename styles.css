@@ -18,6 +18,51 @@
     {
         width: 100%;
     }
+    .tabulka
+    {
+        width: 500px;
+    }
+    .Models
+    {
+        width: 100%;
+    }
+    .TopLogo
+    {
+        width: 100%;
+    }
+    .content
+    {
+        width: 100%;
+    }
+    .footer
+    {
+        width: 100%;
+    }
+    
+    .back-video
+    {
+        height: 100%;
+    } 
+     .text
+    {
+        width: 100%;
+    }
+    .GamePicture
+    {
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+
+    .content h1
+    {
+        width: 100%;
+    }
+    .tabulka
+    {
+        width: 80%;
+    }
     .Models
     {
         width: 100%;
@@ -55,6 +100,12 @@
     {
         width: 100%;
     }
+
+    .tabulka
+    {
+        width: 100%;
+    }
+
     .TopLogo
     {
         width: 100%;
@@ -279,6 +330,19 @@ nav ul li a {
     padding: 14px 20px;
     border-radius: 50px;
     margin-top: 20px;
+}
+.tabulka{
+    background-color:rgb(163, 162, 162);
+    max-width: 900px;
+}
+.table, th, td{
+    border:#00FF08 solid 3px;
+    
+}
+
+.tableText{
+    font-family: 'soopafre', sans-serif;
+    font-size: 2em;
 }
 
 .GamePicture{
