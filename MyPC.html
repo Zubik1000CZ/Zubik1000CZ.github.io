@@ -8,7 +8,7 @@
     <meta name="description" content="Vše o Zubíkovi.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <meta name="author" content="Zubik1000CZ">
+    <meta name="author" content="Vojtěch Dubský" >
     <meta property="og:title" content="O Zubíkovi">
     <meta property="og:type" content="web">
     <meta property="og:url" content="">
@@ -27,16 +27,33 @@
             <source src="./assets/BackgV1.mp4" type="video/mp4">
         </video>
 
-        <nav id="nav">
+        <nav id="nav" class="desktop">
             <ul>
                 <li><a href="index.html">Domů</a></li>
-                <li><a href="index.html">O mně</a></li>
-                <li><a href="index.html">GitHub</a></li>
-                <li><a href="index.html">Kontakt</a></li>
+                <li><a href="index.html#read">O mně</a></li>
+                <li><a href="index.html#github">GitHub</a></li>
+                <li><a href="index.html#contact">Kontakt</a></li>
                 <li><a href="3Dmodels.html">3D modely</a></li>
                 <li><a href="games.html">Hry</a></li>
                 <li><a href="MyPC.html">Můj PC</a></li>
             </ul>
+        </nav>
+        <nav class="mobile" role="navigation">
+            <div id="mobilehamburger">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <a href="index.html"><li>Domů</li></a>
+                  <a href="index.html#read"><li>O mně</li></a>
+                  <a href="index.html#github"><li>GitHub</li></a>
+                  <a href="index.html#contact"><li>Kontakt</li></a>
+                  <a href="3Dmodels.html"><li>3D modely</li></a>
+                  <a href="games.html"><li>Hry</li></a>
+                  <a href="MyPC.html"><li>Můj PC</li></a>
+                </ul>
+              </div>
         </nav>
         <div class="content">
             <h1 style="font-size:10vw" >Můj PC</h1>
@@ -46,82 +63,80 @@
         <div class="overlay">
             <br id="read">
             <br>
-            <br>
-            <br>
-            <br>
-            <div class="text">
-                <h3>Zde si můžeš prohlédnout, jaký používám PC k tvorbě obsahu, který můžete na mém webu najít.</h3>
-                <h3>Používám Custom sestavu, počítač je tedy mnou sestavený. Výhodou je, že na rozdíl od Pre-buildu (již sestavený PC) je snáze rozšiřitelný.</h3>
-            </div>
-            
             <div class="article">
-                <h1>Sestava</h1>
-                <div class="tabulka">
-                    <table class="table">
-                        <tr>
-                            <th><div class="tableText">Typ</div></th>
-                            <th><div class="tableText">Komponenta</div></th>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Procesor</div></td>
-                            <td><div class="tableText">Intel Core i3-4150</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Grafická karta</div></td>
-                            <td><div class="tableText">GTX 1060 3GB Asus dual</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Základní deska</div></td>
-                            <td><div class="tableText">nějaký šrot pro i3 4. gen</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">RAM</div></td>
-                            <td><div class="tableText">4GB DDR3 (další 4GB nefunkční)</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">SSD</div></td>
-                            <td><div class="tableText">Apacer AS350 PANTHER, 240GB</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">HDD</div></td>
-                            <td><div class="tableText">nějaké random 500GB</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">CPU chladič</div></td>
-                            <td><div class="tableText">SilentiumPC Spartan 4</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Zdroj</div></td>
-                            <td><div class="tableText">600W no name</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Skříň</div></td>
-                            <td><div class="tableText">Kus</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Primární monitor</div></td>
-                            <td><div class="tableText">23.8" HP 24f</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Sekundární monitor</div></td>
-                            <td><div class="tableText">Nějaký random 5:4</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Myš</div></td>
-                            <td><div class="tableText">Yenkee Ambush YMS 3017</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">Headset</div></td>
-                            <td><div class="tableText">SPC Gear Viro Gaming</div></td>
-                        </tr>
-                        <tr>
-                            <td><div class="tableText">klávesnice</div></td>
-                            <td><div class="tableText">Nějaká PS/2 z popelnice</div></td>
-                        </tr>
-                    </table>
+                <div class="text">
+                    <h3>Zde si můžeš prohlédnout, jaký používám PC k tvorbě obsahu, který můžete na mém webu najít.</h3>
+                <h3>Používám Custom sestavu, počítač je tedy mnou sestavený. Výhodou je, že na rozdíl od Pre-buildu (již sestavený PC) je snáze rozšiřitelný.</h3>
                 </div>
             </div>
-            
+
+            <h1>Sestava</h1>
+            <div class="tabulka">
+                <table class="table">
+                    <tr>
+                        <th><div class="tableText">Typ</div></th>
+                        <th><div class="tableText">Komponenta</div></th>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Procesor</div></td>
+                        <td><div class="tableText">Intel Core i3-4150</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Grafická karta</div></td>
+                        <td><div class="tableText">GTX 1060 3GB Asus dual</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Základní deska</div></td>
+                        <td><div class="tableText">nějaký šrot pro i3 4. gen</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">RAM</div></td>
+                        <td><div class="tableText">4GB DDR3 (další 4GB nefunkční)</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">SSD</div></td>
+                        <td><div class="tableText">Apacer AS350 PANTHER, 240GB</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">HDD</div></td>
+                        <td><div class="tableText">nějaké random 500GB</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">CPU chladič</div></td>
+                        <td><div class="tableText">SilentiumPC Spartan 4</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Zdroj</div></td>
+                        <td><div class="tableText">600W no name</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Skříň</div></td>
+                        <td><div class="tableText">Kus</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Primární monitor</div></td>
+                        <td><div class="tableText">23.8" HP 24f</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Sekundární monitor</div></td>
+                        <td><div class="tableText">Nějaký random 5:4</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Myš</div></td>
+                        <td><div class="tableText">Yenkee Ambush YMS 3017</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">Headset</div></td>
+                        <td><div class="tableText">SPC Gear Viro Gaming</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="tableText">klávesnice</div></td>
+                        <td><div class="tableText">Nějaká PS/2 z popelnice</div></td>
+                    </tr>
+                </table>
+            </div>
+
+
             <footer class="footer">
                 <p class="footerText">&copyZubik1000CZ   2022-2022</p>
             </footer>
