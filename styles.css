@@ -407,7 +407,7 @@ nav ul li a {
 .tabulka{
     background-color:rgb(163, 162, 162);
     max-width: 900px;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 20px;
 }
 .table, th, td{
     border:#00FF08 solid 3px;
