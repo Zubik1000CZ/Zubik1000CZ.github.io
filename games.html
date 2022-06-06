@@ -8,7 +8,7 @@
     <meta name="description" content="Vše o Zubíkovi.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <meta name="author" content="Zubik1000CZ">
+    <meta name="author" content="Vojtěch Dubský" >
     <meta property="og:title" content="O Zubíkovi">
     <meta property="og:type" content="web">
     <meta property="og:url" content="">
@@ -27,7 +27,7 @@
             <source src="./assets/BackgV1.mp4" type="video/mp4">
         </video>
 
-        <nav id="nav">
+        <nav id="nav" class="desktop">
             <ul>
                 <li><a href="index.html">Domů</a></li>
                 <li><a href="index.html#read">O mně</a></li>
@@ -38,6 +38,23 @@
                 <li><a href="MyPC.html">Můj PC</a></li>
             </ul>
         </nav>
+        <nav class="mobile" role="navigation">
+            <div id="mobilehamburger">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <a href="index.html"><li>Domů</li></a>
+                  <a href="index.html#read"><li>O mně</li></a>
+                  <a href="index.html#github"><li>GitHub</li></a>
+                  <a href="index.html#contact"><li>Kontakt</li></a>
+                  <a href="3Dmodels.html"><li>3D modely</li></a>
+                  <a href="games.html"><li>Hry</li></a>
+                  <a href="MyPC.html"><li>Můj PC</li></a>
+                </ul>
+              </div>
+        </nav>
         <div class="content">
             <h1 style="font-size:10vw" >Zubovy hry</h1>
             <a href="#read">Číst</a>
@@ -46,35 +63,38 @@
         <div class="overlay">
             <br id="read">
             <br>
-            <br>
-            <br>
-            <br>
-            <div class="text">
-                <h3>Zde si můžeš prohlédnout veškeré mnou vytvořené hry, které vytvářím v <a href="https://unity.com/" target="_blank" class="link">Unity enginu</a>.</h3>
-                <h3><a href="https://github.com/Zubik1000CZ/Unity-by-Zubik1000CZ" target="_blank" class="link">Zde</a> si je můžeš stáhnout a zahrát.</h3>
-                <h3>Dočteš se tu základní informace o jednotivých titulech.</h3>
-                <h3>Doporučím ti nehledat smysl ve hrách, pokud ti nedávají smysl kekw.</h3>
-                <h3>A platí tu takové pravidlo. Co nefunguje, to není chyba, ale funkce :D, abys věděl.</h3>
-            </div>
-            <br>
-            <br>
             <div class="article">
-                <h1>Find someone who asked</h1>
-                <div class="popisek">
-                    <h3>Hra bez vyššího smyslu, jež je založena na jednom internetovém memu <a href="https://www.google.com/search?q=who+asked&sxsrf=ALiCzsaVJCKip7zPW3z3CRk8PK8MOhKogQ:1654112712607&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjm45yFgo34AhUZG-wKHV4SCqUQ_AUoAXoECAIQAw&biw=1920&bih=977&dpr=1" target="_blank" class="link">Who asked</a> (česky: Kdo se ptal).</h3>
-                    <h3>Cílem hry je, jak název napovídá, najít toho, kdo se ptal xD.</h3>
-                    <h3>Tato "hra" je ke stažení <a href="https://github.com/Zubik1000CZ/Unity-by-Zubik1000CZ/blob/main/Find%20someone%20who%20asked.rar" target="_blank" class="link">zde</a>.</h3>
+                <div class="text">
+                    <h3>Zde si můžeš prohlédnout veškeré mnou vytvořené hry, které vytvářím v <a href="https://unity.com/" target="_blank" class="link">Unity enginu</a>.</h3>
+                    <h3><a href="https://github.com/Zubik1000CZ/Unity-by-Zubik1000CZ" target="_blank" class="link">Zde</a> si je můžeš stáhnout a zahrát.</h3>
+                    <h3>Dočteš se tu základní informace o jednotivých titulech.</h3>
+                    <h3>Doporučím ti nehledat smysl ve hrách, pokud ti nedávají smysl kekw.</h3>
+                    <h3>A platí tu takové pravidlo. Co nefunguje, to není chyba, ale funkce :D, abys věděl.</h3>
                 </div>
-                <img class="GamePicture" src="./assets/pictures/WhoAskedFHD.png" alt="WhoAsked">
             </div>
 
-            <div class="article">
-                <h1>Tank Game</h1>
-                <div class="popisek">
-                    <h3>Tato hra je momentálně ve vývoji. Název hry zatím dočasný. Bližší informace někdy v budoucnu.</h3>
+            <h1>Find someone who asked</h1>
+            <div class="article"> 
+                <div class="text">
+                    <div class="popisek">
+                        <h3>Hra bez vyššího smyslu, jež je založena na jednom internetovém memu <a href="https://www.google.com/search?q=who+asked&sxsrf=ALiCzsaVJCKip7zPW3z3CRk8PK8MOhKogQ:1654112712607&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjm45yFgo34AhUZG-wKHV4SCqUQ_AUoAXoECAIQAw&biw=1920&bih=977&dpr=1" target="_blank" class="link">Who asked</a> (česky: Kdo se ptal).</h3>
+                        <h3>Cílem hry je, jak název napovídá, najít toho, kdo se ptal xD.</h3>
+                        <h3>Tato "hra" je ke stažení <a href="https://github.com/Zubik1000CZ/Unity-by-Zubik1000CZ/blob/main/Find%20someone%20who%20asked.rar" target="_blank" class="link">zde</a>.</h3>
+                    </div>
+                    <img class="GamePicture" src="./assets/pictures/WhoAskedFHD.png" alt="WhoAsked">
                 </div>
-                <img class="GamePicture" src="./assets/pictures/TankGame.png" alt="TankGame">
             </div>
+
+            <h1>Tank Game</h1>
+            <div class="article"> 
+                <div class="text">
+                    <div class="popisek">
+                        <h3>Tato hra je momentálně ve vývoji. Název hry zatím dočasný. Bližší informace někdy v budoucnu.</h3>
+                    </div>
+                    <img class="GamePicture" src="./assets/pictures/TankGame.png" alt="TankGame">
+                </div>
+            </div>
+
             
             <footer class="footer">
                 <p class="footerText">&copyZubik1000CZ   2022-2022</p>
