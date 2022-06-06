@@ -229,7 +229,7 @@
   padding: 50px;
   padding-top: 125px;
   
-  background: #34282c;
+  background: #44081c;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
@@ -427,7 +427,7 @@ nav ul li a {
 
 .tabulka{
     
-    width: 40%;
+    width: 50%;
     margin: 0 0 0 20px;
 }
 .table, th, td{
