@@ -349,13 +349,13 @@ nav ul li a {
 
 .overlay h1 {
     font-family: 'soopafre', sans-serif;
-    font-size: 100px;
+    font-size: 90px;
     color: #00FF08;
     -webkit-text-stroke:4px #000000;
     font-weight: 200;
     transition: 0.5s;
     width: 40%;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 20px;
 }
 
 .overlay h3 {
