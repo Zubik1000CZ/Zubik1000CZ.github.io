@@ -355,7 +355,7 @@ nav ul li a {
     font-weight: 200;
     transition: 0.5s;
     width: 40%;
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 30px;
 }
 
 .overlay h3 {
@@ -378,7 +378,7 @@ nav ul li a {
     width: 90%;
     height: auto;
     transition: 1s;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 0px 30px;
 }
 
 .text:hover {
