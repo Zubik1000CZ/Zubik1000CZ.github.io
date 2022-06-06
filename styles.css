@@ -78,7 +78,7 @@
     }
     .tabulka
     {
-        width: 80%;
+        width: 90%;
     }
     .Models
     {
@@ -426,18 +426,20 @@ nav ul li a {
  }
 
 .tabulka{
-    background-color:rgb(163, 162, 162);
+    
     width: 40%;
     margin: 0 0 0 20px;
 }
 .table, th, td{
     border:#00FF08 solid 3px;
+    background-color:rgb(163, 162, 162);
     
 }
 
 .tableText{
     font-family: 'soopafre', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .GamePicture{
