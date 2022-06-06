@@ -403,9 +403,8 @@ nav ul li a {
 
 .article {
     color: white;
-    width: 80%;
+    max-width: 75%;
     transition: 1s;
-    margin: 0px 20px 0px 20px;
     margin: 40px 0 40px 20px;
 }
 
