@@ -105,17 +105,13 @@
     {
         width: 100%;
     }
-    .GamePicture
-    {
-        align-items: center;
-    }
     .body
     {
         width: 100%;
     }
     .popisek{
-        float: center;
         width: 100%;
+        float: top;
      }
     .GamePicture
     {
@@ -126,6 +122,10 @@
     {
         width: 100%;
         float: bottom;
+     }
+     .article
+     {
+        width: 100%;
      }
 }
 
@@ -469,9 +469,7 @@ nav ul li a {
 }
 
 .GamePicture{
-    
-    width: 768px;
-    height: 432px;
+    width: 50%;
     margin: 0 0 0 40px;
 }
 
