@@ -23,6 +23,10 @@
     {
         width: 100%;
     }
+    .overlay h1
+    {
+        font-size:5vw;
+    }
     .tabulka
     {
         width: 500px;
@@ -73,7 +77,12 @@
     {
         width: 100%;
     }
-    overlay h3 {
+    .overlay h1
+    {
+        font-size:8vw;
+    }
+    .overlay h3 
+    {
         font-size: 20px;
     }
     .tabulka
@@ -92,6 +101,7 @@
     {
         width: 100%;
     }
+    
     .footer
     {
         width: 100%;
@@ -111,7 +121,6 @@
     }
     .popisek{
         width: 100%;
-        float: top;
      }
     .GamePicture
     {
@@ -403,12 +412,11 @@ nav ul li a {
 
 .overlay h1 {
     font-family: 'soopafre', sans-serif;
-    font-size: 90px;
     color: #00FF08;
     -webkit-text-stroke:4px #000000;
     font-weight: 200;
     transition: 0.5s;
-    width: 40%;
+    width: 100%;
     margin: 0px 0px 0px 20px;
 }
 
