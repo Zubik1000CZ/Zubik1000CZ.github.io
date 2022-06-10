@@ -52,6 +52,10 @@
     {
         height: 100%;
     } 
+     .article
+     {
+        width: 75%;
+     }
      .text
     {
         width: 100%;
@@ -443,7 +447,6 @@ nav ul li a {
 
 .article {
     color: white;
-    max-width: 75%;
     transition: 1s;
     margin: 40px 0 40px 20px;
 }
