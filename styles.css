@@ -56,13 +56,17 @@
     {
         width: 100%;
     }
-    .GamePicture
-    {
-        align-items: center;
-    }
+    
     .body
     {
         width: 100%;
+    }
+    .popisek{
+        width: 50%;
+     }
+    .GamePicture
+    {
+        width: 50%;
     }
 }
 
@@ -456,7 +460,6 @@ nav ul li a {
 
  .popisek{
     float: left;
-    width: 40%;
  }
 
 .tabulka{
@@ -477,7 +480,6 @@ nav ul li a {
 }
 
 .GamePicture{
-    width: 50%;
     margin: 0 0 0 40px;
 }
 
