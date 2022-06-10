@@ -61,12 +61,14 @@
     {
         width: 100%;
     }
-    .popisek{
+    .popisek
+    {
         width: 50%;
      }
     .GamePicture
     {
         width: 50%;
+        margin: 0 0 0 40px;
     }
 }
 
@@ -480,7 +482,7 @@ nav ul li a {
 }
 
 .GamePicture{
-    margin: 0 0 0 40px;
+ 
 }
 
 .footer {
