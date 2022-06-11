@@ -458,8 +458,8 @@ nav ul li a {
 }
 
 .article:hover {
-    background-color: rgb(163, 162, 162);
-    color: black;
+    background-color: rgb(50, 61, 65);
+	color:white;
     border: 3px solid #00FF08;
     border-radius: 50px;
 }
