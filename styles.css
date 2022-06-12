@@ -469,9 +469,11 @@ nav ul li a {
 }
 
 .article {
-    color: white;
-    transition: 1s;
+	color:white;
+    border: 3px solid transparent;
+    border-radius: 50px;
     margin: 40px 0 40px 20px;
+    transition: 1s;
 }
 
 .article:hover {
@@ -481,9 +483,11 @@ nav ul li a {
     border-radius: 50px;
 }
 .articleGame {
-    color: white;
-    transition: 1s;
+    color:white;
+    border: 3px solid transparent;
+    border-radius: 50px;
     margin: 40px 0 40px 20px;
+    transition: 1s;
 }
 
 .articleGame:hover {
@@ -493,9 +497,11 @@ nav ul li a {
     border-radius: 50px;
 }
 .articleModel {
-    color: white;
-    transition: 1s;
+    color:white;
+    border: 3px solid transparent;
+    border-radius: 50px;
     margin: 40px 0 40px 20px;
+    transition: 1s;
 }
 
 .articleModel:hover {
