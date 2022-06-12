@@ -48,7 +48,11 @@
     {
         height: 100%;
     } 
-     .article
+    .article
+    {
+       width: 40%;
+    }
+    .articleGame
      {
         width: 75%;
      }
@@ -471,6 +475,18 @@ nav ul li a {
 }
 
 .article:hover {
+    background-color: rgb(50, 61, 65);
+	color:white;
+    border: 3px solid #00FF08;
+    border-radius: 50px;
+}
+.articleGame {
+    color: white;
+    transition: 1s;
+    margin: 40px 0 40px 20px;
+}
+
+.articleGame:hover {
     background-color: rgb(50, 61, 65);
 	color:white;
     border: 3px solid #00FF08;
