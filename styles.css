@@ -13,6 +13,89 @@
 }
 
 
+@media (max-width: 1300px) {
+	
+		.desktop
+	{
+		display: none;
+	}
+
+    .content h1
+    {
+        width: 100%;
+    }
+    .overlay h1
+    {
+        font-size:8vw;
+    }
+    .overlay h3 
+    {
+        font-size: 20px;
+    }
+    .tabulka
+    {
+        width: 90%;
+    }
+    .Models
+    {
+        width: 100%;
+    }
+    .TopLogo
+    {
+        width: 100%;
+    }
+    .content
+    {
+        width: 100%;
+    }
+    
+    .footer
+    {
+        width: 100%;
+    }
+    
+    .back-video
+    {
+        height: 100%;
+    } 
+     .text
+    {
+        width: 100%;
+    }
+    .body
+    {
+        width: 100%;
+    }
+    .popisek{
+        width: 100%;
+        margin: 0 0 20 0px;
+     }
+    .GamePicture
+    {
+        float: bottom;
+        width: 100%;
+    }
+    .Models 
+    {
+        float: bottom;
+        width: 100%;
+        height: 100%;
+     }
+     .YTVideo{
+        margin: 0 0 0 0px;
+        width: 256px;
+        height: 144px;
+     }
+     .article
+     {
+        width: 100%;
+     }
+     .articleModel
+     {
+        width: 90%;
+     }
+}
+
 @media (min-width: 1301px) {
 	
 	.mobile
@@ -97,89 +180,6 @@
         width: 854px;
         height: 480px;
     }
-}
-
-@media (max-width: 1300px) {
-	
-		.desktop
-	{
-		display: none;
-	}
-
-    .content h1
-    {
-        width: 100%;
-    }
-    .overlay h1
-    {
-        font-size:8vw;
-    }
-    .overlay h3 
-    {
-        font-size: 20px;
-    }
-    .tabulka
-    {
-        width: 90%;
-    }
-    .Models
-    {
-        width: 100%;
-    }
-    .TopLogo
-    {
-        width: 100%;
-    }
-    .content
-    {
-        width: 100%;
-    }
-    
-    .footer
-    {
-        width: 100%;
-    }
-    
-    .back-video
-    {
-        height: 100%;
-    } 
-     .text
-    {
-        width: 100%;
-    }
-    .body
-    {
-        width: 100%;
-    }
-    .popisek{
-        width: 100%;
-        margin: 0 0 20 0px;
-     }
-    .GamePicture
-    {
-        float: bottom;
-        width: 100%;
-    }
-    .Models 
-    {
-        float: bottom;
-        width: 100%;
-        height: 100%;
-     }
-     .YTVideo{
-        margin: 0 0 0 0px;
-        width: 256px;
-        height: 144px;
-     }
-     .article
-     {
-        width: 90%;
-     }
-     .articleModel
-     {
-        width: 90%;
-     }
 }
 
 /* mobilní "hamburger" menu*/
