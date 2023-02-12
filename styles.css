@@ -12,174 +12,271 @@
     font-family: 'soopafre', sans-serif;
 }
 
-
-@media (max-width: 1300px) {
-	
-		.desktop
-	{
+/*@media screen and (min-width: pocetPx) and (max-width: pocetPx)*/
+/*mobily*/
+@media screen and (min-width: 360px) and (max-width: 420px){
+    .desktop{
 		display: none;
 	}
-
-    .content h1
-    {
+    .mobile{
+		display: yes;
+	}
+    .article{
+        width: 90%;
+     }
+     .footer{
+        width: 10%;
+    }
+    nav{
         width: 100%;
     }
-    .overlay h1
-    {
+    .TopLogo{
+        width: 80%;
+    }
+    .overlay{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+
+    .YTcontainer{
+        
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        
+    }
+    .YTVideo{
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+
+     }
+
+    .overlay h1{
         font-size:8vw;
     }
-    .overlay h3 
-    {
+    .overlay h3{
         font-size: 20px;
     }
-    .tabulka
-    {
+    .tabulka{
         width: 90%;
     }
-    .Models
-    {
+    .Models{
         width: 100%;
     }
-    .TopLogo
-    {
-        width: 100%;
-    }
-    .content
-    {
-        width: 100%;
-    }
-    
-    .footer
-    {
-        width: 100%;
-    }
-    
-    .back-video
-    {
+    /*.back-video{
         height: 100%;
-    } 
-     .text
-    {
+        width: auto;
+    } */
+     .text{
         width: 100%;
     }
-    .body
-    {
+    .body{
         width: 100%;
     }
     .popisek{
         width: 100%;
         margin: 0 0 20 0px;
      }
-    .GamePicture
-    {
+    .GamePicture{
         float: bottom;
         width: 100%;
     }
-    .Models 
-    {
+    .Models{
         float: bottom;
         width: 100%;
         height: 100%;
      }
-     .YTVideo{
-        margin: 0 0 0 0px;
-        width: 256px;
-        height: 144px;
+     
+     .articleModel{
+        width: 90%;
      }
-     .article
-     {
+}
+/*tablety*/
+@media screen and (min-width: 421px) and (max-width: 1300px){
+    .desktop{
+		display: none;
+	}
+    .mobile{
+		display: yes;
+	}
+    .article{
+        width: 90%;
+     }
+     .footer{
+        width: 10%;
+    }
+    nav{
         width: 100%;
+    }
+
+    .YTcontainer{
+        
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        
+    }
+    .YTVideo{
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+
      }
-     .articleModel
-     {
+
+
+    .TopLogo{
+        width: 80%;
+    }
+    .overlay{
+        width: 100%;
+    }
+    
+
+    .content h1{
+        width: 80%;
+    }
+    .overlay h1{
+        font-size:8vw;
+    }
+    .overlay h3{
+        font-size: 20px;
+    }
+    .tabulka{
+        width: 90%;
+    }
+    .Models{
+        width: 100%;
+    }
+    
+    /*.back-video{
+        height: 100%;
+        width: auto;
+    } */
+
+
+     .text{
+        width: 100%;
+    }
+    .body{
+        width: 100%;
+    }
+    .popisek{
+        width: 100%;
+        margin: 0 0 20 0px;
+     }
+    .GamePicture{
+        float: bottom;
+        width: 100%;
+    }
+    .Models{
+        float: bottom;
+        width: 100%;
+        height: 100%;
+     }
+     
+     .articleModel{
         width: 90%;
      }
 }
 
-@media (min-width: 1301px) {
+/*desktop*/
+@media screen and (min-width: 1301px){
 	
-	.mobile
-	{
+	.mobile{
 		display: none;
 	}
-
-    .content h1
-    {
+    .desktop{
         width: 100%;
     }
-    .overlay h1
-    {
+    .content h1{
+        width: 100%;
+    }
+    .overlay h1{
         font-size:5vw;
     }
-    .tabulka
-    {
+    .tabulka{
         width: 500px;
     }
-    .TopLogo
-    {
+    .TopLogo{
         width: 100%;
     }
-    .content
-    {
+    .content{
         width: 100%;
     }
-    .footer
-    {
+    .footer{
         width: 100%;
     }
     
-    .back-video
-    {
+    .back-video{
         height: 100%;
     } 
-    .article
-    {
+    .article{
        width: 40%;
     }
-    .articleGame
-     {
+    .articleGame {
         width: 75%;
      }
-     .articleModel
-     {
+     .articleModel{
         width: 55%;
      }
-     .text
-    {
+     .text{
         width: 100%;
     }
-    
-    .body
-    {
+    .body{
         width: 100%;
     }
-    .popisek
-    {
+    .popisek{
         width: 48%;
         margin: 0 0 20 0px;
      }
-     .popisekModel
-    {
+     .popisekModel{
         width: 100%;
         margin: 0 0 20 0px;
      }
-    .GamePicture
-    {
+    .GamePicture{
         float: center;
         width: 48%;
         margin: 0 0 0 20px;
     }
-    .Models
-    {
+    .Models{
         float: center;
         width: 48%;
         height: 48%;
     }
-    .YTVideo{
-        margin: 0 0 0 50px;
-        width: 854px;
-        height: 480px;
+    .YTcontainer{
+        margin: 0 0 0 20px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        
     }
+    .YTVideo{
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
+
+     }
 }
 
 /* mobilní "hamburger" menu*/
@@ -308,7 +405,7 @@
   padding: 50px;
   padding-top: 125px;
   
-  background: #44081c;
+  background: rgb(36, 34, 34);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
@@ -349,7 +446,6 @@ background-color: black;
     max-width: 10000;
 }
 .TopLogo {
-    width: 100%;
     position: relative;
     padding: 0 5%;
     display: flex;
@@ -376,7 +472,6 @@ background-color: black;
 nav {
     z-index: +1;
     font-family: 'soopafre', sans-serif;
-    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -451,7 +546,6 @@ nav ul li a {
     font-family: 'soopafre', sans-serif;
     position: absolute;
     top: 1000px;
-    width: 100%;
 }
 
 .overlay h1 {
@@ -535,11 +629,9 @@ nav ul li a {
     width: 100%;
     height: 100%;
 }
-.YTVideo{
-    
-    
-    
-}
+
+
+
 .tabulka{
     
     width: 50%;
