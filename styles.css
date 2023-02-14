@@ -115,6 +115,9 @@
     nav{
         width: 100%;
     }
+    .YTContback{
+        width: 100%;
+    }
 
     .YTcontainer{
         
@@ -216,6 +219,10 @@
     }
     .content{
         width: 100%;
+    }
+    .YTContback{
+        width: 70%;
+        margin: 0 0 0 50px;
     }
     
     
