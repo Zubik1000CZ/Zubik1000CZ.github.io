@@ -100,6 +100,17 @@
      .articleModel{
         width: 90%;
      }
+     .tabulka{
+    
+        width: 100%;
+    }
+     .sestavaPic{
+        width: 100%;
+    }
+    
+    .seznamKomponent{
+        width: 100%;
+    }
 }
 /*tablety*/
 @media screen and (min-width: 421px) and (max-width: 1100px){
@@ -119,6 +130,7 @@
     .YTContback{
         width: 80%;
         text-align: center;
+        margin: 0 0 0 50px;
         
     }
 
@@ -196,6 +208,20 @@
      .articleModel{
         width: 90%;
      }
+
+     .tabulka{
+    
+        width: 40%;
+        margin: 0 0 0 40px;
+    }
+     .sestavaPic{
+        width: 40%;
+        margin: 0 40px 0 0px;
+    }
+    
+    .seznamKomponent{
+        width: 100%;
+    }
 }
 
 /*desktop*/
@@ -288,6 +314,20 @@
         height: 90%;
 
      }
+
+     .tabulka{
+    
+        width: 40%;
+        margin: 0 0 0 40px;
+    }
+     .sestavaPic{
+        width: 40%;
+        margin: 0 40px 0 0px;
+    }
+    
+    .seznamKomponent{
+        width: 100%;
+    }
 }
 
 /* mobilní "hamburger" menu*/
@@ -644,14 +684,10 @@ nav ul li a {
 
 .tabulka{
     
-    width: 40%;
     float: left;
-    margin: 0 0 0 40px;
 }
 .sestavaPic{
     float: right;
-    width: 40%;
-    margin: 0 40px 0 0px;
 }
 .table, th, td{
     border:#00FF08 solid 3px;
