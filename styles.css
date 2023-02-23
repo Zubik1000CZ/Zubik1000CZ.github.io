@@ -252,13 +252,6 @@
     .content{
         width: 100%;
     }
-    .YTContback{
-        width: 50%;
-        margin: 0 0 0 50px;
-        text-align: center;
-    }
-    
-    
     .back-video{
         height: 100%;
     } 
@@ -294,6 +287,11 @@
         float: center;
         width: 48%;
         height: 48%;
+    }
+    .YTContback{
+        width: 50%;
+        margin: 0 0 0 50px;
+        text-align: center;
     }
     .YTcontainer{
         margin: 0 0 0 20px;
@@ -726,7 +724,14 @@ nav ul li a {
 
  .YTContback{
     background-color: #000000;
+	color:white;
+    border: 3px solid #00FF08;
+    border-radius: 50px;
 
+ }
+
+ .YTContback h1 {
+    margin: 15px 0 15px 0;
  }
 @media (min-aspect-ratio: 16/9) {
     .back-video {
