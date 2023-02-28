@@ -237,6 +237,20 @@
     .seznamKomponent{
         width: 100%;
     }
+
+    #footerText {
+        grid-template-areas:
+        'left'
+        'center'
+        'right';
+      }
+
+      #left {
+            margin: 0px 0px 0px 0px;}
+    #center {
+            margin: 0px 20px 0px 20px;}
+    #right {
+            margin: 0px 0px 0px 0px;}
 }
 
 /*desktop*/
@@ -344,6 +358,16 @@
     .seznamKomponent{
         width: 100%;
     }
+    #footerText {
+        grid-template-areas:
+        'left center right';
+      }
+    #left {
+        margin: 20px 0px 20px 20px;}
+    #center {
+            margin: 20px 200px 20px 200px;}
+    #right {
+            margin: 20px 00px 20px 20px;}
 }
 
 /* mobilní "hamburger" menu*/
@@ -500,8 +524,8 @@
 
 
 html {
-	background-color: black;
-	scroll-behavior: smooth; /*pomalej scroll*/
+background-color: black;
+scroll-behavior: smooth; /*pomalej scroll*/
 }
 
 * {
@@ -725,19 +749,37 @@ nav ul li a {
     border-top-color: rgb(#00FF08);
     border-top: 0.5px solid #00FF08;
     background-color: #000000;
-    align-items: center;
     width: 100%;
     display: flex;
     margin: 20 0 0 0px;
     justify-content: center;
     float: bottom;
 }
-
-.footerText { 
+ #footerText { 
+    
     color:#00FF08;
     Font-size: 1.2em;
-    margin: 20px 0 20px 0;
- }
+    display: grid;
+      gap: 3px;
+    grid-template-areas:
+      'left'
+      'center'
+      'right';
+  }
+  #left {
+        grid-area: left;
+        Font-size: 1.2em;
+        color:#00FF08;}
+#center {
+        grid-area: center;
+        Font-size: 1.2em;
+        color:#00FF08;}
+#right {
+        grid-area: right;
+        Font-size: 1.2em;
+        color:#00FF08;}
+
+
 
  .YTContback{
     background-color: #000000;
