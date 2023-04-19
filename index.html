@@ -23,14 +23,15 @@
         </video>
         <!--poznamka-->
         <nav id="nav" class="desktop">
-        <ul>
-                <li><a href="index.php">Domů</a></li>
-                <li><a href="index.php#read">O mně</a></li>
-                <li><a href="index.php#github">GitHub</a></li>
-                <li><a href="3Dmodels.php">3D modely</a></li>
-                <li><a href="games.php">Hry</a></li>
-                <li><a href="YouTube.php">YouTube</a></li>
-                <li><a href="MyPC.php">Můj PC</a></li>
+            <ul>
+                <li><a href="soutez.html">Soutěž</a></li>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="#read">O mně</a></li>
+                <li><a href="#github">GitHub</a></li>
+                <li><a href="3Dmodels.html">3D modely</a></li>
+                <li><a href="games.html">Hry</a></li>
+                <li><a href="YouTube.html">YouTube</a></li>
+                <li><a href="MyPC.html">Můj PC</a></li>
             </ul>
             <img class="IconDesktop" src="./assets/Icon.ico" alt="Icon">
         </nav>
@@ -41,13 +42,13 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                  <a href="index.php"><li>Domů</li></a>
-                  <a href="index.php#read"><li>O mně</li></a>
-                  <a href="index.php#github"><li>GitHub</li></a>
-                  <a href="3Dmodels.php"><li>3D modely</li></a>
-                  <a href="games.php"><li>Hry</li></a>
-                  <a href="YouTube.php"><li>YouTube</li></a>
-                  <a href="MyPC.php"><li>Můj PC</li></a>
+                    <a href="index.html"><li>Domů</li></a>
+                    <a href="#read"><li>O mně</li></a>
+                    <a href="#github"><li>GitHub</li></a>
+                    <a href="3Dmodels.html"><li>3D modely</li></a>
+                    <a href="games.html"><li>Hry</li></a>
+                    <a><a href="YouTube.html"><li>YouTube</li></a>
+                    <a href="MyPC.html"><li>Můj PC</li></a>
                 </ul>
               </div>
               <img class="Icon" src="./assets/Icon.ico" alt="Icon">
@@ -64,13 +65,6 @@
             <br>
             <div class="article">
                 <div class="text">
-                    Přidáno před <?php
-                        $dnes = date('Y-m-d');
-                        $nahrano = "2023-01-13";
-                        $rozdil = strtotime($nahrano) - strtotime($dnes);
-                        $days = abs($rozdil/(60 * 60)/24);
-                        echo(round($days,0));
-                    ?> dny.<br>
                     <h3>Jmenuji se Michal Zoufalý, ale převážně vystupuji pod přezdívkou Zubik1000CZ</h3>
                     <h3>Je mi 19 let a jsem studentem Informačních technologií na <a href="https://www.vos-sps-jicin.cz/?main=aktuality" target="_blank" class="link">Vyšší odborné a Střední průmyslové škole v Jičíně</a> </h3>
                     <br>
@@ -111,11 +105,11 @@
             </div>
 
             <br>
-            <!--?php  $date = date('d-m-Y h:i'); echo("$date");?-->
             
+           
             <footer class="footer">
                 <p id="left"> email: michalzoufaly14@gmail.com</p>
-                <p id="center"> &copyZubik1000CZ   2022-<?php echo date("Y");?></p>
+                <p id="center"> &copyZubik1000CZ   2022-2023</p>
                 <p id="right"> Discord: Zubik1000CZ#7909</p>
         </footer>
         </div>
