@@ -225,7 +225,15 @@
 
         <footer class="footer">
             <p id="left"> email: michalzoufaly14@gmail.com</p>
-            <p id="center"> &copyZubik1000CZ   2022-2023</p>
+            <p id="center"> &copyZubik1000CZ   2022-<span id="currentYear"><script>
+                // Získání aktuálního roku
+                const currentYear = new Date().getFullYear();
+                // Nalezení prvku na stránce pomocí ID
+                const yearElement = document.getElementById("currentYear");
+              
+                // Nastavení textového obsahu prvku
+                yearElement.textContent = currentYear;
+              </script></span></p>
             <p id="right"> Discord: Zubik1000CZ#7909</p>
     </footer>
         </div>
