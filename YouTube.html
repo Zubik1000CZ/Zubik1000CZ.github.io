@@ -13,7 +13,43 @@
     <link rel="icon" type="image/x-icon" href="./assets/Icon.ico">
     <link rel="apple-touch-icon" href="./assets/Icon.png">
     <link rel="stylesheet" href="styles.css">
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          // sem umístěte svůj kód pro zjištění počtu dnů
+          // Pevně definovaná data pro každý článek
+        const definedDateArticle4 = new Date("2023-02-18");
+        const definedDateArticle3 = new Date("2023-02-11");
+        const definedDateArticle2 = new Date("2023-01-28");
+        const definedDateArticle1 = new Date("2023-01-20");
+      
+        // Nalezení prvků na stránce pomocí ID a nastavení textového obsahu
+        const daysSinceElementArticle4 = document.getElementById("daysSinceArticle4");
+        const daysSinceElementArticle3 = document.getElementById("daysSinceArticle3");
+        const daysSinceElementArticle2 = document.getElementById("daysSinceArticle2");
+        const daysSinceElementArticle1 = document.getElementById("daysSinceArticle1");
+        
+        
+        daysSinceElementArticle4.textContent = daysSince(definedDateArticle4);
+        daysSinceElementArticle3.textContent = daysSince(definedDateArticle3);
+        daysSinceElementArticle2.textContent = daysSince(definedDateArticle2);
+        daysSinceElementArticle1.textContent = daysSince(definedDateArticle1);
+        ;
+      
+        function daysSince(definedDate) {
+          // Dnešní datum
+          const today = new Date();
+      
+          // Počet milisekund od definovaného data
+          const diffInMs = today - definedDate;
+      
+          // Počet dnů od definovaného data
+          const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+      
+          return diffInDays;
+        }
+        });
+        
+      </script>
 </head>
 
 <body>
@@ -76,6 +112,7 @@
             <br>
             
             <div class="YTContback">
+                <br>Přidáno před <span id="daysSinceArticle4"></span> dny.<br><br>
                 <h1>Jak flashnout BIOS?</h1>
                 <div class="YTcontainer">
                     <iframe class="YTVideo" src="https://www.youtube.com/embed/DjcWxDbNr8U"></iframe>
@@ -83,6 +120,7 @@
             </div>
             <br>
             <div class="YTContback">
+                <br>Přidáno před <span id="daysSinceArticle3"></span> dny.<br><br>
                 <h1>Jak nainstalovat Windows by Zubík</h1>
                 <div class="YTcontainer">
                     <iframe class="YTVideo" src="https://www.youtube.com/embed/A6L4zRRKtvQ"></iframe>
@@ -90,6 +128,7 @@
             </div>
             <br>
             <div class="YTContback">
+                <br>Přidáno před <span id="daysSinceArticle2"></span> dny.<br><br>
                 <h1>Stavíme PC se Zubíkem</h1>
                 <div class="YTcontainer">
                     <iframe class="YTVideo" src="https://www.youtube.com/embed/csSMk-HVyY8"></iframe>
@@ -97,6 +136,7 @@
             </div>
             <br>
             <div class="YTContback">
+                <br>Přidáno před <span id="daysSinceArticle1"></span> dny.<br><br>
                 <h1>Intel Core i3 4150 vs AMD Ryzen 5 7600</h1>
                 <div class="YTcontainer">
                     <iframe class="YTVideo" src="https://www.youtube.com/embed/99zkAdpB6J0"></iframe>
