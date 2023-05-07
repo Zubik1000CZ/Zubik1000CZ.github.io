@@ -13,6 +13,38 @@
     <link rel="icon" type="image/x-icon" href="./assets/Icon.ico">
     <link rel="apple-touch-icon" href="./assets/Icon.png">
     <link rel="stylesheet" href="styles.css">
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // sem umístěte svůj kód pro zjištění počtu dnů
+      // Pevně definovaná data pro každý článek
+    const definedDateArticle2 = new Date("2022-06-01");
+    const definedDateArticle1 = new Date("2022-03-01");
+  
+    // Nalezení prvků na stránce pomocí ID a nastavení textového obsahu
+    const daysSinceElementArticle2 = document.getElementById("daysSinceArticle2");
+    const daysSinceElementArticle1 = document.getElementById("daysSinceArticle1");
+    
+    
+    daysSinceElementArticle2.textContent = daysSince(definedDateArticle2)
+    daysSinceElementArticle1.textContent = daysSince(definedDateArticle1);
+    ;
+  
+    function daysSince(definedDate) {
+      // Dnešní datum
+      const today = new Date();
+  
+      // Počet milisekund od definovaného data
+      const diffInMs = today - definedDate;
+  
+      // Počet dnů od definovaného data
+      const diffInDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
+  
+      return diffInDays;
+    }
+    });
+    
+  </script>
 
 </head>
 
@@ -75,6 +107,7 @@
             <h1>Find someone who asked</h1>
             <div class="articleGame"> 
                 <div class="text">
+                    Přidáno před <span id="daysSinceArticle2"></span> dny.<br><br>
                     <div class="popisek">
                         <h3>Hra bez vyššího smyslu, jež je založena na jednom internetovém memu <a href="https://www.google.com/search?q=who+asked&sxsrf=ALiCzsaVJCKip7zPW3z3CRk8PK8MOhKogQ:1654112712607&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjm45yFgo34AhUZG-wKHV4SCqUQ_AUoAXoECAIQAw&biw=1920&bih=977&dpr=1" target="_blank" class="link">Who asked</a> (česky: Kdo se ptal).</h3>
                         <h3>Cílem hry je, jak název napovídá, najít toho, kdo se ptal xD.</h3>
@@ -87,7 +120,9 @@
             <h1>Tank Game</h1>
             <div class="articleGame"> 
                 <div class="text">
-                    <div class="popisek">
+                    Přidáno před <span id="daysSinceArticle1"></span> dny.<br><br>
+
+                        <div class="popisek">
                         <h3>Tato hra je momentálně ve vývoji. Název hry zatím dočasný. Bližší informace někdy v budoucnu.</h3>
                     </div>
                     <img class="GamePicture" src="./assets/pictures/TankGame.png" alt="TankGame">
