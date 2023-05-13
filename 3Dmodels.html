@@ -26,11 +26,12 @@
         <nav id="nav" class="desktop">
             <ul>
                 <li><a href="index.html">Domů</a></li>
-                <li><a href="#read">O mně</a></li>
-                <li><a href="#github">GitHub</a></li>
+                <li><a href="index.html#read">O mně</a></li>
+                <li><a href="index.html#github">GitHub</a></li>
                 <li><a href="3Dmodels.html">3D modely</a></li>
                 <li><a href="games.html">Hry</a></li>
                 <li><a href="YouTube.html">YouTube</a></li>
+                <li><a href="sestavy.html">Sestavy</a></li>
                 <li><a href="MyPC.html">Můj PC</a></li>
             </ul>
             <img class="IconDesktop" src="./assets/Icon.ico" alt="Icon">
@@ -42,13 +43,14 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                  <a href="index.html"><li>Domů</li></a>
-                  <a href="#read"><li>O mně</li></a>
-                  <a href="#github"><li>GitHub</li></a>
-                  <a href="3Dmodels.html"><li>3D modely</li></a>
-                  <a href="games.html"><li>Hry</li></a>
-                  <a href="YouTube.html"><li>YouTube</li></a>
-                  <a href="MyPC.html"><li>Můj PC</li></a>
+                    <a href="index.html"><li>Domů</li></a>
+                    <a href="index.html#read"><li>O mně</li></a>
+                    <a href="index.html#github"><li>GitHub</li></a>
+                    <a href="3Dmodels.html"><li>3D modely</li></a>
+                    <a href="games.html"><li>Hry</li></a>
+                    <a href="YouTube.html"><li>YouTube</li></a>
+                    <a href="sestavy.html"><li>Sestavy</li></a>
+                    <a href="MyPC.html"><li>Můj PC</li></a>
                 </ul>
               </div>
               <img class="Icon" src="./assets/Icon.ico" alt="Icon">
@@ -191,8 +193,8 @@
             </div>
 
             <footer class="footer">
-                <p id="left"> email: michalzoufaly14@gmail.com</p>
-                <p id="center"> &copyZubik1000CZ   2022-<span id="currentYear"><script>
+                <div class="left"> email: michalzoufaly14@gmail.com</div>
+                <div class="center"> &copyZubik1000CZ   2022-<span id="currentYear"><script>
                     // Získání aktuálního roku
                     const currentYear = new Date().getFullYear();
                     // Nalezení prvku na stránce pomocí ID
@@ -200,8 +202,8 @@
                   
                     // Nastavení textového obsahu prvku
                     yearElement.textContent = currentYear;
-                  </script></span></p>
-                <p id="right"> Discord: Zubik1000CZ#7909</p>
+                  </script></span></div>
+                <div class="right"> Discord: Zubik1000CZ#7909</div>
         </footer>
         </div>
     
