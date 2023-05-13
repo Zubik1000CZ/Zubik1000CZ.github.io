@@ -118,7 +118,30 @@
     .seznamKomponent{
         width: 100%;
     }
+    .footerText {
+        grid-template-areas:
+        'left'
+        'center' 
+        'right';
+      }
+
+      .left {
+        grid-area: left;
+        Font-size: 1em;
+        margin: 20px 0px 20px 20px;
+        color:#00FF08;}
+    .center {
+        grid-area: center;
+        Font-size: 1em;
+        margin: 20px 0px 20px 0px;
+        color:#00FF08;}
+    .right {
+        grid-area: right;
+        Font-size: 1em;
+        margin: 20px 0px 20px 20px;
+        color:#00FF08;}
 }
+
 /*tablety*/
 @media screen and (min-width: 421px) and (max-width: 1100px){
     .desktop{
@@ -226,11 +249,11 @@
 
      .tabulka{
     
-        width: 40%;
+        width: 90%;
         margin: 0 0 0 40px;
     }
      .sestavaPic{
-        width: 40%;
+        width: 60%;
         margin: 0 40px 0 0px;
     }
     
@@ -238,19 +261,28 @@
         width: 100%;
     }
 
-    #footerText {
+    .footerText {
         grid-template-areas:
         'left'
-        'center'
+        'center' 
         'right';
       }
 
-      #left {
-            margin: 0px 0px 0px 0px;}
-    #center {
-            margin: 0px 20px 0px 20px;}
-    #right {
-            margin: 0px 0px 0px 0px;}
+      .left {
+        grid-area: left;
+        Font-size: 1em;
+        margin: 20px 0px 20px 20px;
+        color:#00FF08;}
+    .center {
+        grid-area: center;
+        Font-size: 1em;
+        margin: 20px 0px 20px 0px;
+        color:#00FF08;}
+    .right {
+        grid-area: right;
+        Font-size: 1em;
+        margin: 20px 0px 20px 20px;
+        color:#00FF08;}
 }
 
 /*desktop*/
@@ -347,7 +379,7 @@
 
      .tabulka{
     
-        width: 40%;
+        width: 50%;
         margin: 0 0 0 40px;
     }
      .sestavaPic{
@@ -358,17 +390,29 @@
     .seznamKomponent{
         width: 100%;
     }
-    #footerText {
+    .footerText {
         grid-template-areas:
         'left center right';
-      }
-    #left {
-        margin: 20px 0px 20px 20px;}
-    #center {
-            margin: 20px 200px 20px 200px;}
-    #right {
-            margin: 20px 00px 20px 20px;}
+    }
+
+    .left {
+        grid-area: left;
+        Font-size: 1em;
+        margin: 20px 0px 20px 20px;
+        color:#00FF08;}
+    .center {
+        grid-area: center;
+        Font-size: 1em;
+        margin: 20px 200px 20px 200px;
+        color:#00FF08;}
+    .right {
+        grid-area: right;
+        Font-size: 1em;
+        margin: 20px 00px 20px 20px;
+        color:#00FF08;}
 }
+
+
 
 /* mobilní "hamburger" menu*/
 #mobilehamburger
@@ -761,23 +805,12 @@ nav ul li a {
     Font-size: 1.2em;
     display: grid;
       gap: 3px;
-    grid-template-areas:
+   /* grid-template-areas:
       'left'
       'center'
-      'right';
+      'right';*/
   }
-  #left {
-        grid-area: left;
-        Font-size: 1.2em;
-        color:#00FF08;}
-#center {
-        grid-area: center;
-        Font-size: 1.2em;
-        color:#00FF08;}
-#right {
-        grid-area: right;
-        Font-size: 1.2em;
-        color:#00FF08;}
+
 
 
 
